@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ViewAll</servlet-name>
+        <servlet-class>Action.ViewAll</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>View</servlet-name>
+        <servlet-class>Action.View</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Ac</servlet-name>
+        <servlet-class>Action.Ac</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>IntroDuction</servlet-name>
+        <servlet-class>Action.IntroDuction</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewAll</servlet-name>
+        <url-pattern>/ViewAll</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>View</servlet-name>
+        <url-pattern>/View</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Ac</servlet-name>
+        <url-pattern>/Ac</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>IntroDuction</servlet-name>
+        <url-pattern>/IntroDuction</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
