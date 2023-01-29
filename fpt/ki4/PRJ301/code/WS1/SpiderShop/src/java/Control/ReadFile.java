@@ -47,7 +47,7 @@ public class ReadFile {
         ReadFile RF = new ReadFile();
         String CurrentPath= RF.getCurrentPath();
         System.out.println("Current path: "+RF.getCurrentPath());
-        //hay qua
+        //hay qua nha
         System.out.println(RF.GetReadText("C:\\Users\\84384\\Desktop\\fpt\\ki4\\PRJ301\\code\\SaveFunction\\src\\model\\text.txt"));
 //        System.out.println("C:\\Users\\84384\\Desktop\\fpt\\ki4\\PRJ301\\code\\SaveFunction\\src\\model");
     }
