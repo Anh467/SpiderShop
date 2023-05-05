@@ -1,0 +1,3 @@
+- connect2.java để kết nối với database
+- ReadFile đọc file bằng đường dẫn tuyệt đối
+- Query để chứa và lấy các câu lệnh truy vấn dùng cho database

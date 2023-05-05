@@ -1,0 +1,58 @@
+
+:root{
+    --rotation :120;
+}
+body{
+    background-color: rgb(80, 84, 75);
+}
+#clock, #minute, #second, #hour{
+    position:absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+#minute, #second, #hour{
+    margin-top: 8em;
+    align-items: center;
+}
+.hand{
+    background-color: aqua;
+}
+#minute{
+    --rotation: 60;
+    transform-origin: bottom;
+    transform: translateY(65%) translateX(10%) rotate(calc(var(--rotation)* 1deg));
+    /* --rotation: 360;
+    transform-origin: bottom;
+    transform: translateY(110%) translateX(-1%) rotate(calc(var(--rotation)* 1deg)); */
+}
+#hour{
+    --rotation: 120;
+    transform-origin: bottom;
+    transform: translateY(110%) translateX(0%) rotate(calc(var(--rotation)* 1deg));
+    /* --rotation: 360;
+    transform-origin: bottom;
+    transform: translateY(110%) translateX(-1%) rotate(calc(var(--rotation)* 1deg)); */
+}
+#second{
+    --rotation: 0;
+    transform-origin: bottom;
+    transform: translateY(50%) translateX(0%) rotate(calc(var(--rotation)* 1deg));
+    /* --rotation: 360;
+    transform-origin: bottom;
+    transform: translateY(110%) translateX(-1%) rotate(calc(var(--rotation)* 1deg)); */
+}
+#clock{
+    /* background-image: url(../art/namArt/clock/time.png); */
+    height: 350px;
+}
+#IDDisplay{
+    padding: 0;
+    background-color: aqua;
+    text-align: center;
+}
+/* #id_hours, #id_minute{
+    position: absolute;
+    margin-top: 0 auto;
+} */

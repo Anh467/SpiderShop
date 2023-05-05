@@ -1,0 +1,7 @@
+- chứa các model
+- Ani.java
+	+ id_ani
+	+ name_cat
+	+ scient_name
+	+ name_ani;
+    	+ ArrayList<String> img_url;

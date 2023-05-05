@@ -1,0 +1,5 @@
+-  Web sẽ dùng bootstrap 5
+- fontware dùng để tạo ra các incon cho html
+= html để chưa các file html
+- css để trang trí file gtml
+- image để lưu các ảnh nhưng chúng ta nên dùng trực tiếp link trên web

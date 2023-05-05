@@ -1,0 +1,4 @@
+- model để chứa các model
+- text để chứa các file txt
+- action đẻ để chứa các file servlet
+- control để chứa các file điều khiển như đổi dữ liệu, lấy đường dẫn tuyệt đối 
